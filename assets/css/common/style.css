@@ -1,0 +1,441 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+.imagem-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top left;
+}
+.home-content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.titulo-banner{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.51px;
+}
+.titulo-banner-branco{
+    color: #FFFFFF;
+}
+.conteudo-banner{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.conteudo-banner-home{
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #FFFFFF;
+}
+.banner-home-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.arrow-button{
+    width: 6.36px;
+    height: 11.31px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+.banner-button {
+    border: none;
+    width: 165px;
+    height: 60px;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.banner-button-laranja{
+    background-color: #FF8E6E;
+}
+.banner-button-roxo{
+    background-color: #515070;
+}
+.section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.section-depoimentos{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #F6F6F6;
+}
+.conteudo-banner-sobre-nos{
+    width: 493px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+}
+.conteudo-banner-branco{
+    width: 493px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.subtitulo-banner{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.subtitulo-banner-roxo{
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #515070;
+}
+.subtitulo-banner-servicos{
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #FFFFFF;
+}
+.titulo-banner-laranja{
+    color: #FF8E6E;
+}
+.container-sobre-nos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.artigo-box{
+    width: 580px;
+    height: 217px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    padding: 20px 20px 10px;
+    box-shadow: 0px 4px 34px 0px rgba(8, 53, 120, 0.05);
+}
+.artigo-imagem{
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+}
+.artigo-nome{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.94px;
+    color: #515070;
+    margin: 0;
+}
+.artigo-data{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #FF8E6E;
+}
+.artigo-conteudo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+    width: 496px;
+}
+.container-artigo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.artigo-nome-foto-data{
+    display: flex;
+    align-items: center;
+}
+.artigo-nome-data{
+    margin-left: 15px;
+}
+.bk{
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+}
+.container-funcionalidades{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-banner-funcionalidades{
+    margin-top: 58px;
+}
+.icone-funcionalidades{
+    width: 50px;
+    height: 50px;
+}
+.titulo-funcionalidades{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.94px;
+    color: #FFFFFF;
+}
+.conteudo-funcionalidades{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.box-funcionalidades{
+    width: 243px;
+    margin-left: 20px;
+}
+.box-funcionalidades-geral{
+    display: flex;
+}
+.box-funcionalidades-geral-home-funcionalidades{
+    justify-content: space-between;
+}
+.margin-top{
+    margin-top: 50px;
+}
+.margin-top-titulo{
+    margin-top: 20px;
+}
+@media (max-width: 600px) {
+    .container{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 375px;
+    }
+    .titulo-home-mobile {
+        font-size: 38px;
+        line-height: 46.32px;
+    }
+
+    .conteudo-home-mobile {
+        font-size: 18px;
+        line-height: 24.51px;
+        width: 324px;
+    }
+
+    .button-home-mobile {
+        width: 163.69px;
+        height: 72.5px;
+        font-size: 14px;
+        line-height: 17.07px;
+        background-color: #515070;
+    }
+
+    .arrow-button-mobile {
+        width: 6.34px;
+        height: 13.67px;
+        margin-left: 15px;
+    }
+    .container-sobre-nos {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container-sobre-nos img {
+        width: 335.32px;
+        height: auto;
+        order: -1;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .container-sobre-nos div {
+        width: 100%;
+    }
+    .subtitulo-sobre-nos-mobile{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24.51px;
+        margin-top: -100px;
+    }
+    .titulo-sobre-nos-mobile{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39.01px;
+    }
+    .conteudo-sobre-nos-mobile{
+        width: 330.36px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 29px;
+    }
+    .botao-sobre-nos-mobile{
+        width: 163.69px;
+        height: 60.48px;
+        font-weight: 700;
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .div-sobre-nos-mobile{
+        height: 350px;
+    }
+    .arrow-button-second-mobile{
+        width: 5.9px;
+        height: 10.99px;
+        margin: 0;
+    }
+    .subtitulo-servicos-mobile{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24.51px;
+    }
+    .titulo-servicos-mobile{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39.01px;
+    }
+    .conteudo-servicos-mobile{
+        width: 331.23px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 29px;
+        margin-top: 40px;
+    }
+    .button-servicos-mobile{
+        width: 164.12px;
+        height: 72.5px;
+        margin-top: 50px;
+    }
+    .subtitulo-depoimentos-mobile{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24.51px;
+        display: flex;
+        justify-content: center;
+    }
+    .titulo-depoimentos-mobile{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39.01px;
+        display: flex;
+        justify-content: center;
+    }
+    .container-artigo-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .artigo-box-mobile{
+        width: 340px;
+        height: 324px;
+        margin-bottom: 40px;
+    }
+    .artigo-nome-foto-data-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .artigo-imagem-mobile{
+        width: 80px;
+        height: 88.37px;
+    }
+    .artigo-nome-data-mobile{
+        width: 230px;
+        margin-top: 10px;
+    }
+    .artigo-nome-mobile{
+        font-weight: 500;
+        font-style: italic;
+        font-size: 18px;
+        line-height: 21.6px;
+    }
+    .artigo-data-mobile{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14.4px;
+        display: flex;
+        justify-content: center;
+    }
+    .artigo-conteudo-mobile{
+        width: 318px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 29px;
+        padding-left: 30px;
+    }
+    .section-depoimentos-mobile{
+        height: 960px;
+    }
+    .section-funcionalidades-mobile{
+        height: 1328px;
+    }
+    .titulo-funcionalidades-mobile{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39.01px;
+        text-align: center;
+    }
+    .box-funcionalidades-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-funcionalidades-mobile{
+        height: 900px;
+    }
+    .box-funcionalidades-geral-mobile{
+        width: 337px;
+    }
+    .segundo-titulo-funcionalidades-mobile{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.94px;
+        text-align: left;
+    }
+    .conteudo-funcionalidades-mobile{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+    }
+    .section-fale-conosco-mobile{
+        height: 760px;
+    }
+    .subtitulo-fale-conosco-mobile{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24.51px;
+        text-align: left;
+    }
+    .titulo-fale-conosco-mobile{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39.01px;
+        text-align: left;
+    }
+    .conteudo-fale-conosco-mobile{
+        width: 338px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 29px;
+        text-align: left;
+    }
+    .botao-fale-conosco-mobile{
+        width: 191px;
+        height: 60px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17.07px;
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,335 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    position: relative;
+}
+.imagem-banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+.contato-content{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.banner-contact-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.titulo-banner{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.51px;
+}
+.cor-branco{
+    color: #FFFFFF;
+}
+.conteudo-banner{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.conteudo-banner-contact{
+    font-size: 18px;
+    line-height: 24.51px;
+}
+.section{
+    height: 75vh;
+    width: 100%;
+}
+.tamanho-formulario{
+    width: 726px;
+}
+.formulario-espacamento{
+    display: flex;
+    justify-content: space-between;
+}
+.formulario-espacamento-radio{
+    display: flex;
+    justify-content: left;
+}
+.titulo-formulario{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #FF8E6E;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.box-formulario{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 75px;
+}
+.titulo-formulario-label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: #898989;
+    margin-bottom: 10px;
+}
+.input-formulario{
+    border: none;
+    border-bottom: 1px solid #D7D7D7;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.textarea-formulario{
+    width: 726px;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D7D7D7;
+    resize: none;
+}
+input::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: #A9A9A9;
+}
+select{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: #A9A9A9;
+}
+.input-radio{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: #A9A9A9;
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+input[type="radio"]{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.input-radio::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border: 2px solid #515070;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+input[type="radio"]:checked + .input-radio::after{
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 9px;
+    height: 9px;
+    background-color: #515070;
+    border-radius: 50%;
+}
+textarea::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: #A9A9A9;
+}
+.box-formulario-aceite-botao{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.politica-privacidade{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: #A9A9A9;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.politica-privacidade::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    border: 2px solid #D7D7D7;
+    border-radius: 3px;
+    background-color: #fff;
+}
+input[type="checkbox"]:checked + .politica-privacidade::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 10px;
+    border: solid #898989;
+    border-width: 0 2px 2px 0;
+    transform: translateY(-50%) rotate(45deg);
+}
+a{
+    color: #A9A9A9;
+}
+.banner-button{
+    border: none;
+    width: 140px;
+    height: 60px;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.banner-button-roxo{
+    background-color: #515070;
+}
+.arrow-button{
+    width: 6.36px;
+    height: 11.31px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+.banner-informacoes{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -76px;
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+    width: 441px;
+    height: 555px;
+}
+.banner-informacoes-content{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 340px;
+    height: 555px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.icone-conteudo-informacoes{
+    display: flex;
+    width: 251px;
+}
+.titulo-informacoes{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #FFFFFF;
+}
+.box-informacoes{
+    margin-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+@media (max-width:600px) {
+    .container{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 375px;
+    }
+    .contato-content{
+        height: 456px;
+    }
+    .imagem-banner-mobile{
+        height: 456px;
+    }
+    .banner-contact-content-mobile{
+        position: absolute;
+        top: 20%;
+        margin-left: 30px;
+    }
+    .section-formulario-mobile{
+        height: 1415px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .box-formulario-mobile{
+        width: 100%;
+        padding: 20px;
+    }
+    .banner-informacoes {
+        position: relative;
+        width: 100%;
+        height: 555px;
+        margin-top: 20px;
+    }
+    .banner-informacoes-content {
+        width: 100%;
+        padding: 20px;
+    }
+    .formulario-espacamento-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-formulario-mobile{
+        width: 340px;
+    }
+    .textarea-formulario{
+        width: 327px;
+    }
+    .box-formulario-aceite-botao-mobile{
+        display: flex;
+        flex-direction: column;
+        margin-left: -200px;
+    }
+    .botao-formulario-mobile{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .banner-informacoes-mobile{
+        display: flex;
+        align-items: flex-end;
+        margin-top: 100px;
+    }
+}

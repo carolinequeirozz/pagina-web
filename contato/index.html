@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../assets/css/contact/contact.css">
+    <link rel="stylesheet" href="../assets/css/common/header.css">
+    <link rel="stylesheet" href="../assets/css/common/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <section class="container header-container">
+            <img src="../assets/img/logo.svg" alt="logo-loren" class="logo">
+            <label for="menu-control" class="icone-menu-mobile">
+                <img src="../assets/img/icone-menu-mobile.svg" alt="menu">
+            </label>
+            <input type="checkbox" id="menu-control" class="menu-control">
+        
+            <ul class="menu">
+                <li class="menu-item menu-item-mobile">
+                    <a href="../index.html" class="menu-item-link">Home</a>
+                </li>
+                <li class="menu-item menu-item-mobile">
+                    <a href="../sobre/index.html" class="menu-item-link">Sobre nós</a>
+                </li>
+                <li class="menu-item menu-item-mobile">
+                    <a href="" class="menu-item-link">Serviços</a>
+                </li>
+                <li class="menu-item menu-item-mobile">
+                    <a href="../contato/index.html" class="menu-item-link">Contato</a>
+                </li>
+            </ul>
+            <img src="../assets/img/icone-logo-mobile.svg" alt="icone-logo-mobile" class="icone-logo-mobile">
+        </section>
+    </header>
+
+    <section class="contato-content">
+        <img class="imagem-banner imagem-banner-mobile" src="../assets/img/contact/banner-contato.png" alt="banner-contato">
+        <div class="banner-contact-content">
+            <div class="container  banner-contact-content-mobile">
+            <h1 class="titulo-banner cor-branco">Contato</h1>
+            <p class="conteudo-banner conteudo-banner-contact cor-branco">Olá, somos a Lorem Ipsum. <br>
+            Nosso trabalho é desenvolver textos de marcação.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contato-content section-formulario-mobile">
+        <div class="banner-contact-content">
+        <div class="container container-mobile">
+        <form class="tamanho-formulario box-formulario-mobile">
+            <div class="formulario-espacamento">
+            <h1 class="titulo-formulario">Envie-nos uma mensagem</h1>
+            <img class="titulo-formulario" src="../assets/img/contact/icone-envelope.svg" alt="icone-envelope">
+            </div>
+
+            <div class="formulario-espacamento formulario-espacamento-mobile">
+            <div class="box-formulario">
+            <label for="name" class="titulo-formulario-label">Nome</label>
+            <input type="text" name="name" placeholder="Ex.: José Maria da Silva" class="input-formulario input-formulario-mobile">
+            </div>
+            <div class="box-formulario">
+                <label for="E-mail" class="titulo-formulario-label">E-mail</label>
+                <input type="email" name="E-mail" placeholder="Ex.: seuemail@email.com" class="input-formulario input-formulario-mobile">
+            </div>
+            </div>
+
+            <div class="formulario-espacamento formulario-espacamento-mobile">
+            <div class="box-formulario input-formulario-mobile">
+                <label for="ramo" class="titulo-formulario-label">Ramo em que atua</label>
+                <select name="ramo" class="input-formulario">
+                    <option value="selecione" selected disabled>Selecione...</option>
+                    <option value="opcao1">Opção 1</option>
+                    <option value="opcao2">Opção 2</option>
+                  </select>
+            </div>
+            <div class="box-formulario input-formulario-mobile">
+                <label for="assunto" class="titulo-formulario-label">Assunto</label>
+                <div class="formulario-espacamento-radio input-formulario">
+                <input type="radio" id="investimento" name="assunto">
+                <label for="investimento" class="input-radio"> Investimento</label>
+                <input type="radio" id="contratacao" name="assunto">
+                <label for="contratacao" class="input-radio"> Contratação</label>
+                </div>
+            </div>
+            </div>
+
+            <div class="box-formulario">
+                <label for="mensagem" class="titulo-formulario-label">Mensagem</label>
+                <textarea name="mensagem" rows="5" placeholder="Digite sua mensagem aqui" class="textarea-formulario"></textarea>
+            </div>
+            
+        </form>
+        <div class="formulario-espacamento box-formulario-aceite-botao tamanho-formulario box-formulario-aceite-botao-mobile">
+            <div>
+                <input type="checkbox" id="politica-privacidade" name="politica-privacidade">
+                <label for="politica-privacidade" class="politica-privacidade">Li e concordo com a <a href="">política de privacidade</a></label>
+            </div>
+            <button class="banner-button banner-button-roxo botao-formulario-mobile" type="button">
+                ENVIAR <img src="../assets/img/arrow.svg" class="arrow-button" alt="arrow-button">
+                </button></a>
+        </div>
+
+        <div class="banner-informacoes banner-informacoes-mobile">
+            <div class="banner-informacoes-content">
+            <h1 class="titulo-informacoes">Informações de contato</h1>
+            <div class="icone-conteudo-informacoes">
+                <img src="../assets/img/contact/icone-localizacao.svg" alt="icone-localizacao">
+                <p class="box-informacoes">Av. Theodomiro Porto da<br> Fonseca, 3101 - Cristo Rei, São Leopoldo - RS, 93022-715</p>
+            </div>
+            <div class="icone-conteudo-informacoes">
+                <img src="../assets/img/contact/icone-telefone.svg" alt="icone-telefone">
+                <p class="box-informacoes">(51) 3081-3600</p>
+            </div>
+            <div class="icone-conteudo-informacoes">
+                <img src="../assets/img/contact/icone-email.svg" alt="icone-email">
+                <p class="box-informacoes">contato@loremipsungram.com</p>
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <footer class="footer footer-mobile">
+        <section class="container footer-container-mobile">
+            <div class="footer-container">
+            <img src="../assets/img/logo.svg" alt="logo">
+            <a href="https://cwi.com.br/talentos/formacao/crescer/" target="_blank">
+                <img src="../assets/img/crescer-logo.svg" alt="crescer-logo" class="logo-crescer-mobile">
+            </a>
+            </div>
+    
+        <div class="footer-container">
+           <ul class="menu menu-footer-mobile">
+                <li class="menu-item">
+                    <a href="../index.html" class="menu-item-link">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="../sobre/index.html" class="menu-item-link">Sobre nós</a>
+                </li>
+                <li class="menu-item">
+                    <a href="" class="menu-item-link">Serviços</a>
+                </li>
+                <li class="menu-item">
+                    <a href="../contato/index.html" class="menu-item-link">Contato</a>
+                </li>
+            </ul>
+            <p><span class="footer-copyright">Copyright ©. Todos os direitos reservados à Lorem Ipsum.</span>
+                <span class="footer-copyright-mobile">© Copyright 2019 Todos os direitos</span>
+            </p>
+        </div>
+        
+        </section>
+        </footer>
+</body>
+</html>

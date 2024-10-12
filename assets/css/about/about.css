@@ -1,0 +1,195 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+.imagem-banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.about-content{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.titulo-banner{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.51px;
+}
+.cor-branco{
+    color: #FFFFFF;
+}
+.cor-roxo{
+    color: #515070;
+}
+.background-offwhite{
+    background-color: #F6F6F6;
+}
+.conteudo-banner{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.conteudo-banner-about{
+    font-size: 18px;
+    line-height: 24.51px;
+}
+.banner-about-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.section-height{
+    height: 50vh;
+}
+.box-nosso-time{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.box-nosso-time-container {
+    position: relative;
+  }
+  .box-nosso-time-container:hover .overlay{
+    opacity: 0.7;
+  }
+.imagem-nosso-time{
+    height: 257px;
+    width: 257px;
+    position: relative;
+    display: block;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #515070;
+  }
+.box-nosso-time-overlay{
+    display: flex;
+    flex-direction: column;
+    height: 254px;
+    justify-content: end;
+}
+.titulo-nome-nosso-time{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.94px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.conteudo-nome-nosso-time{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-left: 20px;
+}
+.titulo-mis-vis-val{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51.2px;
+    margin-left: 40px;
+}
+.conteudo-mis-vis-val{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+}
+.box-mis-vis-val{
+    width: 336px;
+}
+.icone-titulo-mis-vis-val{
+    display: flex;
+}
+@media (max-width: 600px) {
+    .container{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 375px;
+    }
+    .titulo-sobre-nos-mobile{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58.51px;
+        text-align: left;
+    }
+    .conteudo-sobre-nos-mobile{
+        width: 319px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24.51px;
+        text-align: left;
+    }
+    .section-nosso-time-mobile{
+        height: 1690px;
+    }
+    .titulo-nome-nosso-time-mobile{
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 51.2px;
+        text-align: left;
+        margin-top: 30px;
+    }
+    .conteudo-nosso-time-mobile{
+        width: 332px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24.51px;
+        text-align: left;
+    }
+    .box-nosso-time-mobile{
+        flex-direction: column;
+    }
+    .imagem-nosso-time-mobile{
+        width: 335px;
+        height: 335px;
+        margin-bottom: 40px;
+    }
+    .overlay{
+        width: 335px;
+        height: 335px;
+    }
+    .section-mis-vis-val-mobile{
+        height: 814px;
+    }
+    .box-mis-vis-val-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 342px;
+    }
+    .box-mis-vis-val{
+        margin-top: 60px;
+    }
+}
